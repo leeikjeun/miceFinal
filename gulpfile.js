@@ -33,7 +33,7 @@ gulp.task('minify:js', function() {
 
 gulp.task('minify:css', function() {
   return gulp.src('src/css/*.css')
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest('dist/css'));
 });
 
 gulp.task('watch', function() {
